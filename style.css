@@ -806,3 +806,81 @@ margin-top: 32px;
 width:128px;
 font-weight: 600;
 }
+.lets{
+ 
+    height: 100vh;
+    clip-path: polygon(0% 10% ,50% 0 ,100% 10%, 100% 80% , 50% 90% , 0 80%);
+}
+
+.lets video{
+    width: 100%;
+ 
+     opacity: 0.3;
+}
+
+.lets .card{
+    width:50%;
+    background-color: rgb(207, 128, 24);
+    position: relative;
+ 
+    top:-83%;
+    left:27%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px 5%;
+    background-color: antiquewhite;
+
+}
+
+
+.lets .card .description p{
+    text-align: center;
+    padding: 10px 50px;
+    line-height: 1.6;
+    color:gray;
+   
+}
+
+
+
+.lets  .card .titre h2::after{
+   content: "";
+   width: 80px;
+   height: 3px;
+
+    background-color: orange;
+    position: absolute;
+    bottom: -10px;
+    left: 42%;
+}
+
+
+
+.lets  .card .titre{
+    position: relative;
+}
+
+
+.lets  .card .titre h2{
+    text-align: center;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+  
+}
+
+ .lets  .card a{
+       display: block;
+padding: 0.8rem 1.5rem;
+font-size: 1rem;
+background-color: orange;
+border-radius: 10px;
+color:rgb(58, 57, 57);
+text-transform: uppercase;
+width:auto;
+font-weight: 550;
+margin-bottom: 20px;
+}
