@@ -641,6 +641,8 @@ footer{
     height: 27vh;
  
     background-color: #313130;
+    /* position: relative; */
+    bottom: -40%;
 
 
    
@@ -884,3 +886,186 @@ width:auto;
 font-weight: 550;
 margin-bottom: 20px;
 }
+
+
+.blog{
+   
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+
+
+}
+
+
+
+
+
+
+.blog .titre h2::after{
+   content: "";
+   width: 80px;
+   height: 4px;
+
+    background-color: orange;
+    position: absolute;
+    bottom: 62px;
+    left: 47%;
+}
+
+
+
+.blog .titre{
+   padding:70px 0;
+    position: relative;
+}
+
+
+
+.blog .titre h2{
+    text-align: center;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+  
+}
+
+.blog  .container{
+    width:90%;
+    margin: auto;
+
+}
+
+.blog .grid-blog{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    /* border:2px solid; */
+    grid-auto-rows: 500px;
+    gap:15px;
+place-content: center;
+padding-bottom: 3.5rem;
+}
+
+.blog .grid-blog .haut{
+    background-image: url(project-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height:50%;
+   
+}
+
+
+
+.blog .grid-blog .two .haut{
+    background-image: url(project-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height:50%;
+   
+}
+
+
+
+.blog .grid-blog .three{
+
+
+
+}
+
+
+
+.blog .grid-blog .four .haut{
+    background-image: url(project-4.jpeg);
+    background-position: center;
+    background-size: cover;
+    height:50%;
+   
+}
+
+
+
+.blog .grid-blog .card{
+  /* border-radius: 100px; */
+
+  border-radius: 10px;
+  overflow: hidden;
+
+
+   
+}
+
+
+.blog .grid-blog .bas{
+        height:50%;
+    padding:0 18px;
+    display: flex;
+    flex-direction: column;
+ 
+    gap:12px;
+    background-color: white;
+    border:none;
+  
+   
+
+}
+
+
+.blog .grid-blog .bas .desc p{
+   
+  
+   
+line-height: 1.6;
+color:gray;
+font-size: 1.1rem;
+}
+
+
+
+
+
+.blog .grid-blog .card .article{
+    margin-top: 1.2rem;
+ 
+
+}
+
+
+
+.blog .grid-blog .card .article p{
+   font-weight: 550;
+ 
+letter-spacing: 5px;
+font-size: 1.2rem;
+
+}
+
+
+
+.grid-blog .card .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.grid-blog .card .image .time p{
+    color:orange;
+    font-size: 1.2rem;
+
+ }
+
+
+
+
+.grid-blog .card .image .photos{
+ clip-path: circle();
+ background-image:url(hero-img-small.jpeg);
+
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 40px;
+ width: 40px;
+ }
+
